@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "home",
+      "settings": {
+        "body_text": "#df2a2a"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

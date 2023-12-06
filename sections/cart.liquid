@@ -1,0 +1,17 @@
+<section>
+  <h1>{{ section.settings.cart_heading }}</h1>
+</section>
+
+{% schema %}
+{
+  "name": "Cart",
+  "settings": [
+    {
+      "type": "text",
+      "id": "cart_heading",
+      "label": "Cart Headeing",
+      "default": "Cart Page"
+    }
+  ]
+}
+{% endschema %}

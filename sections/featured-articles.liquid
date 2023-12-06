@@ -1,0 +1,30 @@
+<section>
+  <p>THe Journal</p>
+  <h2>Our Process</h2>
+
+  <ul>
+    <li>
+      {% render 'article-card', article_title: 'Only for the...' %}
+    </li>
+    <li>
+      {% render 'article-card', article_title: 'Nice theme design' %}
+    </li>
+    <li>
+      {% render 'article-card', article_title: 'Shopify themes' %}
+    </li>
+  </ul>
+</section>
+
+{% schema %}
+{
+  "name": "Featured Article",
+  "settings": [
+    {
+      "type": "color",
+      "id": "body_text",
+      "label": "Body text",
+      "default": "#000000"
+    }
+  ]
+}
+{% endschema %}

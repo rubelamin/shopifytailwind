@@ -1,0 +1,24 @@
+<section>
+  <h2>{{ section.settings.pagenotfound_title }}</h2>
+  <p>{{ section.settings.pagenotfound_message }}</p>
+</section>
+
+{% schema %}
+{
+  "name": "404 Not Found",
+  "settings": [
+    {
+      "type": "text",
+      "id": "pagenotfound_title",
+      "label": "Heading",
+      "default": "Page Not Found!"
+    },
+    {
+      "type": "textarea",
+      "id": "pagenotfound_message",
+      "label": "Not found Text.",
+      "default": "The page you are looking for is not found."
+    }
+  ]
+}
+{% endschema %}
